@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(205, 201, 169);
+  font-family: "Nunito", sans-serif;
+  color: #222;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul {
+  font-size: 2rem;
+  margin-left: 5rem;
+}
+
+p {
+  margin: 5rem 10rem;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+span {
+  font-size: 1.5rem;
+}
