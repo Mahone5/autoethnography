@@ -29,6 +29,7 @@ header {
   background-color: #4a707a;
   margin-bottom: 2rem;
   color: #f4f4f4;
+  padding: 0 4rem;
 }
 
 h1 {
@@ -62,9 +63,15 @@ nav ul li a:hover {
 }
 
 .dream-title {
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
   margin-left: 3rem;
   font-size: 3rem;
+}
+
+.post-wrapper {
+  max-width: 180ch;
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .post-main {
@@ -100,8 +107,19 @@ article h3 {
   font-size: 1.5rem;
 }
 
+.attribution {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  font-style: normal;
+}
+
+article {
+  max-width: 120ch;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
 article .content {
-  margin: 0 10rem;
   text-align: justify;
 }
 
