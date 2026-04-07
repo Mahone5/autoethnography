@@ -38,6 +38,10 @@ header {
   padding: 0 4rem;
 }
 
+.home-header {
+  justify-content: center;
+}
+
 h1 {
   font-size: 4rem;
   margin-left: 3rem;
@@ -61,10 +65,11 @@ nav ul li a {
   text-decoration: none;
   color: #f4f4f4;
   font-size: 2rem;
+  /*#f2b8b5*/
 }
 
 nav ul li a:hover {
-  color: #f2b8b5;
+  color: #ee7854;
   transition: 0.2s;
 }
 
@@ -78,6 +83,10 @@ nav ul li a:hover {
   max-width: 180ch;
   margin: 0 auto;
   padding: 0 4rem;
+
+  
+  
+
 }
 
 .post-main {
@@ -119,11 +128,24 @@ article h3 {
   font-style: normal;
 }
 
-article {
+article .orange-border {
   max-width: 180ch;
   margin: 0 auto;
   padding: 0 4rem;
+
+  margin: 1rem;
+  border: 0.5rem solid rgba(232, 87, 42, 0.8);
+  border-radius: 8px;
+  padding: 2rem 4rem;
 }
+
+.orange-border {
+  margin: 1rem;
+  border: 0.5rem solid rgba(232, 87, 42, 0.8);
+  border-radius: 8px;
+  padding: 2rem 4rem;
+}
+
 
 article .content {
   text-align: justify;
@@ -135,29 +157,43 @@ article p {
   line-height: 1.5;
 }
 
-footer {
-  text-align: center;
-  font-size: 1.5rem;
-  background-color: #4a707a;
-  color: #f4f4f4;
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .img-container {
   padding: 3rem;
+  margin-bottom: 3rem;
 }
 
 img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-.school {
+.photo-line {
   font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #4a707a;
+  color: #f4f4f4;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer a {
