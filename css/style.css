@@ -2,6 +2,12 @@
 
 html {
   font-size: 62.5%;
+  background-color: #4a707a;
+
+}
+
+html, body {
+  overscroll-behavior: none;
 }
 
 * {
@@ -114,7 +120,7 @@ article h3 {
 }
 
 article {
-  max-width: 120ch;
+  max-width: 180ch;
   margin: 0 auto;
   padding: 0 4rem;
 }
@@ -163,4 +169,23 @@ footer a {
 footer a:hover {
   transition: 0.2s;
   color: #f2b8b5;
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  nav ul li {
+    margin-right: 1.5rem;
+  }
 }
