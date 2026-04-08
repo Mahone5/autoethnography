@@ -44,7 +44,6 @@ header {
 
 h1 {
   font-size: 4rem;
-  margin-left: 3rem;
 }
 
 nav {
@@ -75,7 +74,7 @@ nav ul li a:hover {
 
 .dream-title {
   /*margin-bottom: 2rem;*/
-  margin-left: 3rem;
+  text-align: center;
   font-size: 3rem;
 }
 
@@ -91,6 +90,11 @@ nav ul li a:hover {
 
 .post-main {
   margin: 3rem;
+  
+}
+
+.index-main {
+  margin: 4rem;
 }
 
 article ul {
@@ -137,9 +141,18 @@ article .orange-border {
   border: 0.5rem solid rgba(232, 87, 42, 0.8);
   border-radius: 8px;
   padding: 2rem 4rem;
+  
 }
 
 .orange-border {
+  margin: 1rem;
+  border: 0.5rem solid rgba(232, 87, 42, 0.8);
+  border-radius: 8px;
+  padding: 2rem 4rem;
+  
+}
+
+.index-orange-border {
   margin: 1rem;
   border: 0.5rem solid rgba(232, 87, 42, 0.8);
   border-radius: 8px;
@@ -224,4 +237,10 @@ footer a:hover {
   nav ul li {
     margin-right: 1.5rem;
   }
+
+  @media (max-width: 800px) {
+  article .content {
+    text-align: left;
+  }
+}
 }
