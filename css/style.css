@@ -221,6 +221,7 @@ footer a:hover {
   .home-header {
     padding: 1.5rem;
     position: relative;
+    height: 8rem;
   }
 
   .header-brand {
