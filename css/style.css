@@ -220,11 +220,11 @@ footer a:hover {
 @media (max-width: 800px) {
   .home-header {
     padding: 1.5rem;
+    position: relative;
   }
 
   .header-brand {
     width: 100%;
-    position: relative;
     display: flex;
     align-items: center;
   }
@@ -234,6 +234,7 @@ footer a:hover {
     left: 50%;
     transform: translateX(-50%);
     font-size: 2.5rem;
+    width: max-content; /* prevents wrapping/stacking */
   }
 }
 
