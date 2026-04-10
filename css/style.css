@@ -38,10 +38,15 @@ body {
   padding: 0 5rem;
 }
 
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .logo {
   height: 4rem;
   margin: 0; /* Add this line */
-  margin-right: 2rem;
   border-radius: 8px;
 }
 
@@ -213,26 +218,28 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
-  header {
-    flex-direction: column;
-    height: auto;
-    padding: 1.5rem;
-    text-align: center;
+  .home-header {
+    padding: 3rem;
+    height: 8rem;
   }
 
-  h1 {
-    font-size: 2.5rem;
-    margin-left: 0;
-    margin-bottom: 1rem;
+  .header-brand {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
 
-  nav ul li {
-    margin-right: 1.5rem;
+  .header-brand h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
   }
+}
 
-  @media (max-width: 800px) {
-    article .content {
-      text-align: left;
-    }
+@media (max-width: 800px) {
+  article .content {
+    text-align: left;
   }
 }
