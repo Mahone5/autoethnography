@@ -27,19 +27,22 @@ body {
   position: relative;
 }
 
-header {
+.home-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   height: 10rem;
   background-color: #4a707a;
   margin-bottom: 2rem;
   color: #f4f4f4;
-  padding: 0 4rem;
+  padding: 0 5rem;
 }
 
-.home-header {
-  justify-content: center;
+.logo {
+  height: 4rem;
+  margin: 0; /* Add this line */
+  margin-right: 2rem;
+  border-radius: 8px;
 }
 
 h1 {
