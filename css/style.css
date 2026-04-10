@@ -3,10 +3,10 @@
 html {
   font-size: 62.5%;
   background-color: #4a707a;
-
 }
 
-html, body {
+html,
+body {
   overscroll-behavior: none;
 }
 
@@ -82,15 +82,10 @@ nav ul li a:hover {
   max-width: 180ch;
   margin: 0 auto;
   padding: 0 4rem;
-
-  
-  
-
 }
 
 .post-main {
   margin: 3rem;
-  
 }
 
 .index-main {
@@ -141,7 +136,6 @@ article .orange-border {
   border: 0.5rem solid rgba(232, 87, 42, 0.8);
   border-radius: 8px;
   padding: 2rem 4rem;
-  
 }
 
 .orange-border {
@@ -149,7 +143,6 @@ article .orange-border {
   border: 0.5rem solid rgba(232, 87, 42, 0.8);
   border-radius: 8px;
   padding: 2rem 4rem;
-  
 }
 
 .index-orange-border {
@@ -158,7 +151,6 @@ article .orange-border {
   border-radius: 8px;
   padding: 2rem 4rem;
 }
-
 
 article .content {
   text-align: justify;
@@ -169,8 +161,6 @@ article p {
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
-
-
 
 .img-container {
   padding: 3rem;
@@ -185,7 +175,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .photo-line {
@@ -239,8 +228,8 @@ footer a:hover {
   }
 
   @media (max-width: 800px) {
-  article .content {
-    text-align: left;
+    article .content {
+      text-align: left;
+    }
   }
-}
 }
