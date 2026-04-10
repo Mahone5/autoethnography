@@ -219,8 +219,7 @@ footer a:hover {
 
 @media (max-width: 800px) {
   .home-header {
-    padding: 3rem;
-    height: 8rem;
+    padding: 1.5rem;
   }
 
   .header-brand {
